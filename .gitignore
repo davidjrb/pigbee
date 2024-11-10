@@ -1,0 +1,16 @@
+#.gitignore
+
+# Ignore the configuration file
+secret.toml
+
+# Ignore the virtual environment directory
+venv/
+
+# Ignore the test API directory
+testapi/
+
+# Ignore everything in the json directory
+json/*
+
+# Except this file
+!json/README.md
