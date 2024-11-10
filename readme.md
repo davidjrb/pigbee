@@ -33,8 +33,8 @@ An automation project to control Zigbee devices, specifically designed to implem
 
 - deconz
 - Python 3.x
-- `pip`
-- `virtualenv`
+- pip
+- virtualenv
 
 ### Steps
 
