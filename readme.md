@@ -1,6 +1,5 @@
 ## `README.md`
 
-```markdown
 # Pigbee
 
 An automation project to control Zigbee devices, specifically designed to implement a wake-up lamp functionality using Zigbee for smart lighting.
@@ -42,7 +41,7 @@ An automation project to control Zigbee devices, specifically designed to implem
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/pigbee.git
+   git clone https://github.com/davidjrb/pigbee.git
    cd pigbee
    ```
 
