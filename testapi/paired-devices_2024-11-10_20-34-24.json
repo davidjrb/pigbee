@@ -1,0 +1,91 @@
+{
+    "1": {
+        "capabilities": {
+            "alerts": [
+                "none",
+                "select",
+                "lselect"
+            ],
+            "color": {
+                "ct": {
+                    "computes_xy": true,
+                    "max": 454,
+                    "min": 250
+                },
+                "effects": [
+                    "none",
+                    "colorloop"
+                ],
+                "modes": [
+                    "ct",
+                    "effect",
+                    "hs",
+                    "xy"
+                ],
+                "xy": {
+                    "blue": [
+                        0,
+                        0
+                    ],
+                    "green": [
+                        0,
+                        0
+                    ],
+                    "red": [
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "colorcapabilities": 31,
+        "config": {
+            "bri": {
+                "couple_ct": false,
+                "execute_if_off": true,
+                "on_level": "previous",
+                "startup": "previous"
+            },
+            "color": {
+                "ct": {
+                    "startup": 336
+                },
+                "execute_if_off": true
+            },
+            "groups": [
+                "1"
+            ],
+            "on": {
+                "startup": "previous"
+            }
+        },
+        "ctmax": 454,
+        "ctmin": 250,
+        "etag": "4fcb952074f9150ddb2a6f960d03dd94",
+        "hascolor": true,
+        "lastannounced": "2024-11-10T15:11:18Z",
+        "lastseen": "2024-11-10T20:34Z",
+        "manufacturername": "IKEA of Sweden",
+        "modelid": "TRADFRI bulb GU10 CWS 345lm",
+        "name": "345lm",
+        "productid": "LED2110R3",
+        "state": {
+            "alert": "none",
+            "bri": 150,
+            "colormode": "xy",
+            "ct": 336,
+            "effect": "none",
+            "hue": 0,
+            "on": true,
+            "reachable": true,
+            "sat": 201,
+            "xy": [
+                0.526,
+                0.413
+            ]
+        },
+        "swversion": "1.0.38",
+        "type": "Extended color light",
+        "uniqueid": "60:b6:47:ff:fe:73:a5:74-01"
+    }
+}
