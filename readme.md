@@ -121,16 +121,13 @@ An automation project to control Zigbee devices, specifically designed to implem
 - **clock.py**: Initiates and manages scheduled lighting events.
 - **create-group.py**: Creates new groups in your Zigbee setup.
 - **events.toml**: Configuration file where you define your events.
-- **generate_requirements.py**: Generates the `requirements.txt` file.
 - **get-json.py**: Fetches JSON data from the API.
 - **json/**: Directory containing JSON data files (ignored in version control).
 - **monitor.py**: Monitors ongoing events for interruptions.
-- **prompter.py**: Script to assist with user prompts.
+- **prompter.py**: Generates new events in the `events.toml` file.
 - **requirements.txt**: List of Python package dependencies.
 - **resume.py**: Resumes interrupted events.
 - **secret.toml**: Configuration file for API keys and IP addresses (ignored in version control).
-- **testapi/**: Directory for testing API interactions (ignored in version control).
-- **venv/**: Virtual environment directory (ignored in version control).
 
 ---
 
