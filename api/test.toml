@@ -1,0 +1,20 @@
+# wakeup.toml
+
+# Each task is a table with time, action, and optional args
+
+[[schedule]]
+time = "01:50"
+action = "warm"
+
+[[schedule]]
+time = "01:51"
+action = "0%"
+
+[[schedule]]
+time = "01:52"
+action = "ON"
+
+[[schedule]]
+time = "01:53"
+action = "100%"
+args = "-time 60s"
