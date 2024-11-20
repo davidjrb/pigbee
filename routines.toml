@@ -1,0 +1,67 @@
+# routines.toml
+
+# Define multiple routines, each with a unique name and optional start_time.
+
+
+[[routines]]
+name = "wakeup"
+start_time = "08:00:00"
+
+  # Schedule of actions for the "test" routine
+  [[routines.schedule]]
+  time = "+5s"
+  action = "warm"
+
+  [[routines.schedule]]
+  time = "+10s"
+  action = "0%"
+
+  [[routines.schedule]]
+  time = "+15s"
+  action = "ON"
+
+  [[routines.schedule]]
+  time = "+30s"
+  action = "100%"
+  args = "-time 60m"
+
+  [[routines.schedule]]
+  time = "+120m"
+  action = "0%"
+  args = "-time 60m"
+
+  [[routines.schedule]]
+  time = "+185m"
+  action = "OFF"
+
+
+[[routines]]
+name = "sleeptime"
+start_time = "21:00:00"
+
+  # Schedule of actions for the "test" routine
+  [[routines.schedule]]
+  time = "+5s"
+  action = "warm"
+
+  [[routines.schedule]]
+  time = "+10s"
+  action = "0%"
+
+  [[routines.schedule]]
+  time = "+15s"
+  action = "ON"
+
+  [[routines.schedule]]
+  time = "+30s"
+  action = "25%"
+  args = "-time 5m"
+
+  [[routines.schedule]]
+  time = "+60m"
+  action = "0%"
+  args = "-time 60m"
+
+  [[routines.schedule]]
+  time = "+150m"
+  action = "OFF"

@@ -6,7 +6,7 @@ import re
 import sys
 
 # Path to the TOML file (adjust the path if necessary)
-SECRET_FILE_PATH = "../secret.toml"
+SECRET_FILE_PATH = "secret.toml"
 
 def fetch_json(ip, api_key, endpoint):
     url = f"http://{ip}/api/{api_key}/{endpoint}"
